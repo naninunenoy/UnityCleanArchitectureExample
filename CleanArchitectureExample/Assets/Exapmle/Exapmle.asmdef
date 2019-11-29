@@ -1,0 +1,15 @@
+{
+    "name": "Exapmle",
+    "references": [
+        "GUID:5490f9cc2b331a945904ce198a9bfd24"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

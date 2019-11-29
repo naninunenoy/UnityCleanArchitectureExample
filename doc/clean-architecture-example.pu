@@ -1,0 +1,77 @@
+@startuml clean-architecture-example
+
+package UnityEngine {
+    abstract class MonoBehaviour
+}
+
+package Zenject {
+    abstract class MonoInstaller
+}
+
+package Example {
+package Main {
+    class ExampleMain
+}
+
+package Installer {
+    class ExampleInstaller
+}
+
+class CountVo
+
+package Domain {
+    class CountUpBr
+
+    package Domain.UseCase {
+        class CountUseCase
+    }
+
+    package Domain.Presenter {
+        interface ICountPresenter
+    }
+
+    package Domain.Repository {
+        interface ICountRepository
+    }
+}
+
+package Presenter {
+    class CountPresenter
+    interface ICounterView
+
+    package Presenter.Detail {
+        class CounterView
+    }
+}
+
+package Repository {
+    class CountRepository
+    interface ICountDataStore
+
+    package Repository.Detail {
+        class PlayerPrefsDataStore
+    }
+}
+}
+
+ExampleInstaller <|-le- MonoInstaller
+ExampleMain -le- ExampleInstaller
+ExampleMain <|-ri- MonoBehaviour
+ExampleMain -do-> CountUseCase
+
+CountUseCase --> CountVo
+CountUseCase .ri.> CountUpBr
+CountUseCase .do.> ICountPresenter
+CountUseCase .do.> ICountRepository
+
+ICountPresenter <|.do. CountPresenter
+CountPresenter .do.> ICounterView
+ICounterView <|.do. CounterView
+CounterView <|--up---- MonoBehaviour
+
+ICountRepository <|.do. CountRepository
+CountRepository .do.> ICountDataStore
+ICountDataStore <|.do. PlayerPrefsDataStore
+
+ICountPresenter -[hidden]le- ICountRepository
+@enduml

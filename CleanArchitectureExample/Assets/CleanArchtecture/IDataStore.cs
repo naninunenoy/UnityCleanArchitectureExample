@@ -1,4 +1,4 @@
 ﻿namespace Assets.CleanArchtecture {
-    interface IDataStore {
+    public interface IDataStore {
     }
 }

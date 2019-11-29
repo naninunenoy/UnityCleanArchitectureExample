@@ -1,3 +1,21 @@
-﻿{
-	"name": "Example.Domain.UseCase"
+{
+    "name": "Example.Domain.UseCase",
+    "references": [
+        "GUID:5490f9cc2b331a945904ce198a9bfd24",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:9083b1b07ab69dc4e9bb87b12a763e5b",
+        "GUID:f2dc8315f26de9540914ecc626fd4255",
+        "GUID:0c08413245cf2574cb1236394821c1d7",
+        "GUID:1f8a1bdca36923d4a8b3f97ff001af0c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

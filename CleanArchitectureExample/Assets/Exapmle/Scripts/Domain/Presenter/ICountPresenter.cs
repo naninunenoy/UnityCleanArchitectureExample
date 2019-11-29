@@ -1,18 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System;
+using UniRx;
+using CleanArchtecture;
 
-public class ICountPresenter : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+namespace Example.Domain.Presenter {
+    public interface ICountPresenter : IPresenter {
+        IObservable<Unit> ButtonClickObservable { get; }
+        void SetText(string text);
     }
 }

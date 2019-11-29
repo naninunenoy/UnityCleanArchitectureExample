@@ -1,4 +1,4 @@
 ﻿namespace CleanArchtecture {
-    interface IPresenter {
+    public interface IPresenter {
     }
 }

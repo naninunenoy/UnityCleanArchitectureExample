@@ -1,4 +1,4 @@
 ﻿namespace CleanArchtecture {
-    interface IRepository {
+    public interface IRepository {
     }
 }

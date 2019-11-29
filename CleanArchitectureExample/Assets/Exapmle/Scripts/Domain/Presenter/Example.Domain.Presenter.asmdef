@@ -1,3 +1,16 @@
-﻿{
-	"name": "Example.Domain.Presenter"
+{
+    "name": "Example.Domain.Presenter",
+    "references": [
+        "GUID:5490f9cc2b331a945904ce198a9bfd24",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

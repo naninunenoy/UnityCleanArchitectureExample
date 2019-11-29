@@ -1,18 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UniRx.Async;
+using CleanArchtecture;
 
-public class ICountRepository : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+namespace Example.Domain.Repository {
+    public interface ICountRepository : IRepository {
+        UniTaskVoid SetCountAsync(int count);
+        UniTask<int> GetCountAsync();
     }
 }

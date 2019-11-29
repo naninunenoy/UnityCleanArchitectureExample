@@ -1,4 +1,4 @@
 ﻿namespace CleanArchtecture {
-    interface IVew {
+    public interface IVew {
     }
 }

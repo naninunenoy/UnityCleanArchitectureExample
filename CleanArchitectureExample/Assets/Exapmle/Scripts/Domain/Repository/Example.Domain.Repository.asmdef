@@ -1,3 +1,16 @@
-﻿{
-	"name": "Example.Domain.Repository"
+{
+    "name": "Example.Domain.Repository",
+    "references": [
+        "GUID:5490f9cc2b331a945904ce198a9bfd24",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

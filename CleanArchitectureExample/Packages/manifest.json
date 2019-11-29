@@ -1,4 +1,15 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "Unofficial Unity Package Manager Registry",
+      "url": "https://upm-packages.dev",
+      "scopes": [
+        "jp.cysharp.unirx",
+        "jp.cysharp.unitask",
+        "com.stevevermeulen.extenject"
+      ]
+    }
+  ],
   "dependencies": {
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.0",
@@ -37,6 +48,9 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "jp.cysharp.unirx" : "7.1.0",
+    "jp.cysharp.unitask" : "1.0.0",
+    "com.stevevermeulen.extenject" : "9.1.0"
   }
 }

@@ -1,3 +1,22 @@
-﻿{
-	"name": "Example.Installer"
+{
+    "name": "Example.Installer",
+    "references": [
+        "GUID:5490f9cc2b331a945904ce198a9bfd24",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:0c08413245cf2574cb1236394821c1d7",
+        "GUID:1f8a1bdca36923d4a8b3f97ff001af0c",
+        "GUID:afdaf3040dc17a54e8cdb1e4957c3cbe",
+        "GUID:863d809f878178846b61cd7756f47d2b",
+        "GUID:6d84c87b8ccda0943b37c3756f8b1bf8",
+        "GUID:8b8925f3624bc6745b45e2e4da688484"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

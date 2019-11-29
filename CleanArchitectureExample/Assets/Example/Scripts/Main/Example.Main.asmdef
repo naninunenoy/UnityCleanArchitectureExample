@@ -1,3 +1,19 @@
-﻿{
-	"name": "Example.Main"
+{
+    "name": "Example.Main",
+    "references": [
+        "GUID:5490f9cc2b331a945904ce198a9bfd24",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:0c08413245cf2574cb1236394821c1d7",
+        "GUID:1f8a1bdca36923d4a8b3f97ff001af0c",
+        "GUID:852aa32f19c023d46ac9dee1bf1f339c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

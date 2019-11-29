@@ -1,3 +1,18 @@
-﻿{
-	"name": "Example.Presenter"
+{
+    "name": "Example.Presenter",
+    "references": [
+        "GUID:5490f9cc2b331a945904ce198a9bfd24",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:9083b1b07ab69dc4e9bb87b12a763e5b",
+        "GUID:0c08413245cf2574cb1236394821c1d7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

@@ -1,3 +1,18 @@
-﻿{
-	"name": "Example.Repository"
+{
+    "name": "Example.Repository",
+    "references": [
+        "GUID:5490f9cc2b331a945904ce198a9bfd24",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:9083b1b07ab69dc4e9bb87b12a763e5b",
+        "GUID:1f8a1bdca36923d4a8b3f97ff001af0c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

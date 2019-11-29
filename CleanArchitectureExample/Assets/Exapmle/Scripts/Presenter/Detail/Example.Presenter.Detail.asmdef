@@ -1,6 +1,9 @@
 {
     "name": "Example.Presenter.Detail",
-    "references": [],
+    "references": [
+        "GUID:5490f9cc2b331a945904ce198a9bfd24",
+        "GUID:afdaf3040dc17a54e8cdb1e4957c3cbe"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

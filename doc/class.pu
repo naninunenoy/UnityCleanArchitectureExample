@@ -1,0 +1,47 @@
+@startuml clean-architecture-example
+
+package Main {
+    class ExampleMain
+}
+
+package Installer {
+    class ExampleInstaller
+}
+
+class CountVo
+
+package Domain {
+    class CountUpBr
+
+    package Domain.UseCase {
+        class CountUseCase
+    }
+
+    package Domain.Presenter {
+        interface ICountPresenter
+    }
+
+    package Domain.Repository {
+        interface ICountRepository
+    }
+}
+
+package Presenter {
+    class CountPresenter
+    interface ICounterView
+
+    package Presenter.Detail {
+        class CounterView
+    }
+}
+
+package Repository {
+    class CountRepository
+    interface ICountDataStore
+
+    package Repository.Detail {
+        class CountDataStore
+    }
+}
+
+@enduml

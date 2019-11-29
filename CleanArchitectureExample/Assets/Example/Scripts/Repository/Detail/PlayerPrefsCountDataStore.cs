@@ -3,14 +3,14 @@ using UniRx.Async;
 
 namespace Example.Repository.Detail {
     public class PlayerPrefsCountDataStore : ICountDataStore {
-        const string key = "count";
+        public const string Key = "count";
 
         UniTask<int> ICountDataStore.LoadCount() {
-            return UniTask.FromResult(PlayerPrefs.GetInt(key, 0));
+            return UniTask.FromResult(PlayerPrefs.GetInt(Key, 0));
         }
 
         UniTask ICountDataStore.SaveCount(int count) {
-            PlayerPrefs.SetInt(key, count);
+            PlayerPrefs.SetInt(Key, count);
             return UniTask.CompletedTask;
         }
     }

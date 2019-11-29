@@ -21,6 +21,7 @@ namespace Example.Domain.UseCase {
 
         async void IUseCase.Begin() {
             var init = await repository.GetCountAsync();
+            presenter.SetText($"{init}");
             var count = new CountVo(init);
             presenter
                 .ButtonClickObservable

@@ -21,5 +21,10 @@ namespace Example.Installer {
                 .FromInstance(new CountRepository(new PlayerPrefsCountDataStore()))
                 .AsCached();
         }
+
+        [ContextMenu("reset count")]
+        void DeleteCountKey() {
+            PlayerPrefs.DeleteKey(PlayerPrefsCountDataStore.Key);
+        }
     }
 }

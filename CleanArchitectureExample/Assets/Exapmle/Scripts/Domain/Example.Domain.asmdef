@@ -1,3 +1,15 @@
-﻿{
-	"name": "Example.Domain"
+{
+    "name": "Example.Domain",
+    "references": [
+        "GUID:9083b1b07ab69dc4e9bb87b12a763e5b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace Example.Domain {
+﻿namespace Example.Domain {
     public class CountUpBr {
         readonly int max;
         public CountUpBr(int max) {

@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace Example {
+﻿namespace Example {
     public class CountVo {
         public int Count { private set; get; }
         public CountVo(int count) {

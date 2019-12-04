@@ -2,7 +2,21 @@
     "name": "Example.Tests.PlayMode",
     "references": [
         "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "UnityEditor.TestRunner",
+        "UniRx",
+        "UniRx.Async",
+        "Zenject",
+        "Zenject-TestFramework",
+        "CleanArchtecture",
+        "Example",
+        "Example.Domain",
+        "Example.Domain.UseCase",
+        "Example.Domain.Presenter",
+        "Example.Domain.Repository",
+        "Example.Presenter",
+        "Example.Presenter.Detail",
+        "Example.Repository",
+        "Example.Repository.Detail"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

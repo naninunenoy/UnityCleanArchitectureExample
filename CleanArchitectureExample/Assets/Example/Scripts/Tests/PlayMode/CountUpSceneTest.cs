@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-
+using Zenject;
 
 namespace Example.Tests.EditMode {
-    public class NewTestScriptPlayMode {
+    public class CountUpSceneTest {
         // A Test behaves as an ordinary method
         [Test]
         public void NewTestScriptPlayModeSimplePasses() {

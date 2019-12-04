@@ -1,0 +1,14 @@
+{
+  "name": "Zenject-TestFramework-local",
+  "references": [
+    "Zenject"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false
+}

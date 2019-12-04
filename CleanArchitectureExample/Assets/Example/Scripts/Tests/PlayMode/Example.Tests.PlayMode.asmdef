@@ -6,7 +6,7 @@
         "UniRx",
         "UniRx.Async",
         "Zenject",
-        "Zenject-TestFramework",
+        "Zenject-TestFramework-local",
         "CleanArchtecture",
         "Example",
         "Example.Domain",

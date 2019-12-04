@@ -6,7 +6,7 @@ using UnityEngine.TestTools;
 using Zenject;
 
 namespace Example.Tests.EditMode {
-    public class CountUpSceneTest {
+    public class CountUpSceneTest : SceneTestFixture {
         // A Test behaves as an ordinary method
         [Test]
         public void NewTestScriptPlayModeSimplePasses() {

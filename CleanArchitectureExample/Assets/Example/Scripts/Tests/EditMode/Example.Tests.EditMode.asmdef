@@ -2,7 +2,9 @@
     "name": "Example.Tests.EditMode",
     "references": [
         "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "UnityEditor.TestRunner",
+        "Example",
+        "Example.Domain"
     ],
     "includePlatforms": [
         "Editor"

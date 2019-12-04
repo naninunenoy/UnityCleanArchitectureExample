@@ -3,8 +3,17 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
+        "CleanArchtecture",
+        "UniRx",
+        "UniRx.Async",
         "Example",
-        "Example.Domain"
+        "Example.Domain",
+        "Example.Domain.Presenter",
+        "Example.Presenter",
+        "Example.Presenter.Detail",
+        "Example.Domain.Repository",
+        "Example.Repository",
+        "Example.Repository.Detail"
     ],
     "includePlatforms": [
         "Editor"
